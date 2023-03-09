@@ -13,7 +13,7 @@
   
   a{
     text-decoration: none;
-    color: #4472C4;
+    color: royalblue;
   }
   
   a:hover{
@@ -35,13 +35,23 @@
     letter-spacing: 1px;
     text-transform: uppercase;
   }
-  
+  input{
+    border: 2px solid royalblue;
+    border-radius: 10px;
+  }
+  label{
+    font-weight: bold;
+  }
+  textarea{
+    border: 2px solid royalblue;
+    border-radius: 10px;
+  }
   .text-blue{
-    color: #4472C4;
+    color: royalblue;
   }
   
   .text-darkblue{
-    color: #002060;
+    color: #122c5f;
   }
   
   .text-uppercase{
@@ -69,7 +79,7 @@
   .left-column{
     grid-area: left-column;
     padding: 50px;
-    background-color: #4472C4;
+    background-color: royalblue;
     color: white;
   }
   
@@ -103,14 +113,14 @@
   .header{
     grid-area: header;
     padding: 50px;
-    background-color: #F2F2F2;
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
   
   .infos{
-    columns: 2;
+
     list-style-type: none;
     padding: 0;
   }
@@ -124,3 +134,4 @@
   .experience-list{
     list-style-type: circle;
   }
+
