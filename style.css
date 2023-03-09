@@ -134,4 +134,18 @@
   .experience-list{
     list-style-type: circle;
   }
+.portait:hover{
+  animation: amine-portait 4s infinite;
+}
+@keyframes amine-portait {
+  0% { transform:rotateY(0deg);}
 
+  100% {transform:rotateY(360deg);}
+}
+
+input:hover{
+  background-color: gray;
+}
+textarea:hover{
+  background-color: gray;
+}
